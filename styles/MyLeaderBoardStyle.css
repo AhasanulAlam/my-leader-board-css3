@@ -7,12 +7,13 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
 }
+
 main{
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
+
 .container{
     background-color: #FFFFFF;
     width: 870px;
@@ -23,6 +24,38 @@ main{
 hr{
     border: 1px solid #D1D1D1;
     margin-bottom: 27px;
+}
+
+/* nav styles */
+header{
+    display: flex;
+    background-color: #562EFF;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.logo img{
+    width: 41px;
+    height: 51px;
+}
+nav{
+    /* background-color: #ED6B4F; */
+    width: 870px;
+    height: 94px;
+    display: flex;    
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+.nav-content ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    align-items: center;
 }
 
 /* top players style */
