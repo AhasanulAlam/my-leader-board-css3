@@ -199,7 +199,6 @@ nav{
     .logo, .nav-content ul{
         list-style: none;
         gap: 15px;
-        /* align-items: center; */
     }   
 }
 /* Tablet Devices */
