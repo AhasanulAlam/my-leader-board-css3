@@ -191,13 +191,26 @@ nav{
     }
     .player, .blog {
         flex-direction: column;
-    }        
+    }  
+    nav{
+        height: 100%;
+        width: 100%;        
+    }  
+    .logo, .nav-content ul{
+        list-style: none;
+        gap: 15px;
+        /* align-items: center; */
+    }   
 }
 /* Tablet Devices */
 @media only screen and (min-width: 689px) and (max-width: 992px){
     .container{
         width: 100%;
     }
+    nav{
+        height: 100%;
+        width: 100%;
+    } 
     .players, .courses{
         grid-template-columns: repeat(2,1fr);
     }
